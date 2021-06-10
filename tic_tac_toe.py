@@ -52,7 +52,13 @@ if __name__=='__main__':
     inc=1
     chkwin=0
     print("___Tic Tac toe___\n")
-    printboard(dict)
+    print('''
+    1 | 2 | 3
+    ---+---+---
+    4 | 5 | 6
+    ---+---+---
+    7 | 8 | 9
+    ''')
     while(chkwin==0):
         val=inc%2
         if(val==1):
