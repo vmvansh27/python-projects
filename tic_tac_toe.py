@@ -24,7 +24,7 @@ def checkwin():
         return 1
     elif(dict[3]==dict[5]==dict[7]!=' '): # Diagnal line
         return 1
-    elif(dict[1]!=dict[2]!=dict[3]!=dict[4]!=dict[5]!=dict[6]!=dict[7]!=dict[8]!=dict[9]): # Draw
+    elif(dict[1]!=' ' and dict[2]!=' ' and dict[3]!=' ' and dict[4]!=' ' and dict[5]!=' ' and dict[6]!=' ' and dict[7]!=' ' and dict[8]!=' ' and dict[9]!=' '): # Draw
         return -1
     else:
         return 0 # Continue
